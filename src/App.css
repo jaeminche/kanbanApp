@@ -1,0 +1,47 @@
+.board {
+  background: rgba(249, 249, 250, 0.774);
+  flex-grow: 1;
+  margin: 10px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.todo {
+  padding: 2px;
+  text-align: center;
+  padding: 20px;
+}
+
+.board:first-child .personName {
+  background: rgb(49, 9, 71);
+}
+
+.board:nth-child(2) .personName {
+  background: rgb(37, 122, 118);
+}
+
+.board:nth-child(3) .personName {
+  background: rgb(4, 7, 48);
+}
+
+.board:nth-child(4) .personName {
+  background: rgb(235, 115, 4);
+}
+
+.personName {
+  color: rgb(255, 255, 255);
+}
+
+button {
+  background: rgba(249, 249, 250, 0.774);
+  border: none;
+  background: none;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+}
